@@ -64,3 +64,5 @@ ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
        caption = "Collected by Dr. Kristen Gorman") +
   facet_wrap(~island) +
   theme_minimal()
+
+
