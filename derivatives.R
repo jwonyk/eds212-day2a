@@ -43,3 +43,10 @@ ty <- expression((2*y^3 + 1)^4 - (8*y^3))
 dt_dy <- D(expr = ty, name ="y")
 dt_dy
 
+# find the slope of T(y) at a range of values
+
+y <- seq(from = -0.4, to = 2.0, by = 0.1)
+
+# Evaluate the slope of T(y) at each of those values
+eval(dt_dy)
+
